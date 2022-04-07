@@ -6,37 +6,44 @@ class Cliente extends Usuario{
 	private String personaContacto;
 	private Cliente_Categoria categoria;
 	private Date ultimoContacto;
-	private Arraylist<> Obra;
+	private ArrayList<Obra> obra;
 
+	
 	public int getRazonSocial() {
-	return razonSocial;
+		return razonSocial;
 	}
 	public void setRazonSocial(int razonSocial) {
-	this.razonSocial = razonSocial;
+		this.razonSocial = razonSocial;
 	}
 
 	public String getPersonaContacto() {
-	return personaContacto;
+		return personaContacto;
 	}
 	public void setPersonaContacto(String personaContacto) {
-	this.personaContacto = personaContacto;
+		this.personaContacto = personaContacto;
 	}
 
 	public Cliente_Categoria getCategoria() {
-	return categoria;
+		return categoria;
 	}
 	public void setCategoria(Cliente_Categoria categoria) {
-	this.categoria = categoria;
+		this.categoria = categoria;
 	}
 
 	public Date getUltimoContacto() {
-	return ultimoContacto;
+		return ultimoContacto;
+	}
+	public void setUltimoContacto(Date ultimoContacto) {
+		this.ultimoContacto = ultimoContacto;
 	}
 
-	public void setUltimoContacto(Date ultimoContacto) {
-	this.ultimoContacto = ultimoContacto;
+	public ArrayList<Obra> getObra() {
+		return obra;
 	}
-	
+	public void setObra(ArrayList<Obra> obra) {
+		this.obra = obra;
+	}
+
 	public Cliente(String nombre,int telefono,String correo, int razonSocial,String personaContacto,Cliente_Categoria categoria, Date ultimoContacto){
 		super(nombre,telefono,correo);
 		this.razonSocial=razonSocial;
