@@ -1,6 +1,18 @@
 package pe.edu.pucp.losheredados.entidades;
 class Producto{
-
+	private float precioUnitario;
+	private int stock;
+	private String nombre;
+	private String descripcion;
+	private String rendimiento;
+	private String presentacion;
+	private float densidad;
+	private Categoria categoria;
+	private String apariencia;
+	private String diluyente;
+	private String soluble;
+	private String color;
+	
 	public float getPrecioUnitario() {
 		return precioUnitario;
 	}
@@ -85,18 +97,7 @@ class Producto{
 		this.color = color;
 	}
 
-	private float precioUnitario;
-	private int stock;
-	private String nombre;
-	private String descripcion;
-	private String rendimiento;
-	private String presentacion;
-	private float densidad;
-	private Categoria categoria;
-	private String apariencia;
-	private String diluyente;
-	private String soluble;
-	private String color;
+	
 	public Producto(float precioUnitario,int stock,String nombre,String descripcion,String rendimiento,String presentacion,float densidad,
 					Categoria categoria, String apariencia, String diluyente,String soluble,String color){
 		this.precioUnitario=precioUnitario;
