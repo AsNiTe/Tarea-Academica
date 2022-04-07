@@ -17,13 +17,6 @@ class Almacen{
 	public void setDireccion(String direccion) {
 		this.direccion = direccion;
 	}
-	
-	public ArrayList<Producto> getProductos(){
-		return getProducto();
-	}
-	public void setProductos(ArrayList<Producto> producto){
-		this.setProducto(producto);
-	}
 	public Almacen(String direccion){
 		this.direccion=direccion;
 	}
