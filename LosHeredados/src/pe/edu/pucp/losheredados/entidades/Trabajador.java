@@ -1,5 +1,5 @@
 package pe.edu.pucp.losheredados.entidades;
-import java.out.ArrayList;
+import java.util.ArrayList;
 
 class Trabajador extends Usuario{
 	private String area;
