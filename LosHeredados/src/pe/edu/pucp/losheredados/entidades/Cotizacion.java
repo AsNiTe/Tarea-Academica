@@ -72,7 +72,7 @@ class Cotizacion{
 		this.estado = estado;
 	}
 
-	public int getSubTotal() {
+	public float getSubTotal() {
 		return subTotal;
 	}
 	public void SubTotal(int subTotal) {
@@ -90,7 +90,7 @@ class Cotizacion{
 		return total;
 	}
 	public void setTotal(float total) {
-		this.total = totalo;
+		this.total = total;
 	}
 	
 	public Cotizacion(float costo,Obra obra,Trabajador vendedor,Cliente cliente,Date fecha,String estado,int plazo,float subTotal,float IGV,float total){
