@@ -5,26 +5,26 @@ class Almacen{
 	private String direccion;
 
 	public ArrayList<Producto> getProducto() {
-	return producto;
+		return producto;
 	}
 	public void setProducto(ArrayList<Producto> producto) {
-	this.producto = producto;
+		this.producto = producto;
 	}
 
 	public String getDireccion() {
-	return direccion;
+		return direccion;
 	}
 	public void setDireccion(String direccion) {
-	this.direccion = direccion;
+		this.direccion = direccion;
 	}
 	
 	public ArrayList<Producto> getProductos(){
-	return getProducto();
+		return getProducto();
 	}
 	public void setProductos(ArrayList<Producto> producto){
-	this.setProducto(producto);
+		this.setProducto(producto);
 	}
 	public Almacen(String direccion){
-	this.direccion=direccion;
+		this.direccion=direccion;
 	}
 }
