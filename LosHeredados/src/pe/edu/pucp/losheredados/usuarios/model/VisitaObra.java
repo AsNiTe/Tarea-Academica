@@ -1,6 +1,6 @@
 
-package pe.edu.pucp.losheredados.usuarios;
-import pe.edu.pucp.losheredados.usuarios.Trabajador;
+package pe.edu.pucp.losheredados.usuarios.model;
+import pe.edu.pucp.losheredados.usuarios.model.Trabajador;
 import java.util.Date;
 
 public class VisitaObra {

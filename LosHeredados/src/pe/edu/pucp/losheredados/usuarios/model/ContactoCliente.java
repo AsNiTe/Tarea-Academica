@@ -1,7 +1,7 @@
 
-package pe.edu.pucp.losheredados.usuarios;
+package pe.edu.pucp.losheredados.usuarios.model;
 
-import pe.edu.pucp.losheredados.usuarios.Trabajador;
+import pe.edu.pucp.losheredados.usuarios.model.Trabajador;
 import java.util.Date;
 
 

@@ -1,8 +1,8 @@
-package pe.edu.pucp.losheredados.usuarios;
-import pe.edu.pucp.losheredados.usuarios.VisitaObra;
-import pe.edu.pucp.losheredados.usuarios.Trabajador;
-import pe.edu.pucp.losheredados.usuarios.Ubigeo;
-import pe.edu.pucp.losheredados.usuarios.Cliente;
+package pe.edu.pucp.losheredados.usuarios.model;
+import pe.edu.pucp.losheredados.usuarios.model.VisitaObra;
+import pe.edu.pucp.losheredados.usuarios.model.Trabajador;
+import pe.edu.pucp.losheredados.usuarios.model.Ubigeo;
+import pe.edu.pucp.losheredados.usuarios.model.Cliente;
 import java.util.ArrayList;
 import java.util.Date;
 public class Obra{

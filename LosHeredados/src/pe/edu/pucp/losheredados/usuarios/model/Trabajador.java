@@ -1,4 +1,4 @@
-package pe.edu.pucp.losheredados.usuarios;
+package pe.edu.pucp.losheredados.usuarios.model;
 import java.util.ArrayList;
 import java.util.Date;
 import pe.edu.pucp.losheredados.entidades.Cotizacion;

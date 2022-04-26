@@ -1,4 +1,4 @@
-package pe.edu.pucp.losheredados.usuarios;
+package pe.edu.pucp.losheredados.usuarios.model;
 import java.util.Date;
 import java.util.ArrayList;
 public class Cliente extends Usuario{

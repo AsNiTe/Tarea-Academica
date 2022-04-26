@@ -1,7 +1,7 @@
 package pe.edu.pucp.losheredados.entidades;
-import pe.edu.pucp.losheredados.usuarios.Obra;
-import pe.edu.pucp.losheredados.usuarios.Trabajador;
-import pe.edu.pucp.losheredados.usuarios.Cliente;
+import pe.edu.pucp.losheredados.usuarios.model.Obra;
+import pe.edu.pucp.losheredados.usuarios.model.Trabajador;
+import pe.edu.pucp.losheredados.usuarios.model.Cliente;
 import java.util.ArrayList;
 import java.util.Date;
 public class Cotizacion{
