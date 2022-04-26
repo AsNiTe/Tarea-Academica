@@ -1,5 +1,5 @@
 package pe.edu.pucp.losheredados.entidades;
-class Producto{
+public class Producto{
 	private float precioUnitario;
 	private int stock;
 	private String nombre;

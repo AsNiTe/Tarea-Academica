@@ -1,5 +1,5 @@
-package pe.edu.pucp.losheredados.entidades;
-class Ubigeo{
+package pe.edu.pucp.losheredados.usuarios;
+public class Ubigeo{
 	private int idUbigeo;
 	private String distrito;
 	private String provincia;

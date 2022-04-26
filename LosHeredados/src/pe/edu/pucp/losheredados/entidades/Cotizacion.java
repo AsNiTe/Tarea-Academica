@@ -1,7 +1,10 @@
 package pe.edu.pucp.losheredados.entidades;
+import pe.edu.pucp.losheredados.usuarios.Obra;
+import pe.edu.pucp.losheredados.usuarios.Trabajador;
+import pe.edu.pucp.losheredados.usuarios.Cliente;
 import java.util.ArrayList;
 import java.util.Date;
-class Cotizacion{
+public class Cotizacion{
 	private float costo;
 	private ArrayList<Producto> producto;
 	private ArrayList<Servicio> servicio;

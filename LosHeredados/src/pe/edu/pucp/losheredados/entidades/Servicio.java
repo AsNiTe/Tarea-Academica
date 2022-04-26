@@ -1,6 +1,7 @@
 package pe.edu.pucp.losheredados.entidades;
+import pe.edu.pucp.losheredados.usuarios.Trabajador;
 import java.util.ArrayList;
-class Servicio{
+public class Servicio{
 	private String nombre;
 	private float costo;
 	private ArrayList<Trabajador> encargado;

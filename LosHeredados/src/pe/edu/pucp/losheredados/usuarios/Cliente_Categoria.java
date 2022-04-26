@@ -1,5 +1,5 @@
-package pe.edu.pucp.losheredados.entidades;
-class Cliente_Categoria{
+package pe.edu.pucp.losheredados.usuarios;
+public class Cliente_Categoria{
 	private String nombre;
 	private float lineaCredito; 
 	

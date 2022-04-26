@@ -1,7 +1,10 @@
-package pe.edu.pucp.losheredados.entidades;
+package pe.edu.pucp.losheredados.usuarios;
 import java.util.ArrayList;
+import java.util.Date;
+import pe.edu.pucp.losheredados.entidades.Cotizacion;
+import pe.edu.pucp.losheredados.entidades.Servicio;
 
-class Trabajador extends Usuario{
+public class Trabajador extends Usuario{
 	private String area;
 	private String cargo;
 	private ArrayList<Servicio> servicio;
@@ -34,10 +37,14 @@ class Trabajador extends Usuario{
 	public void setCotizacion(ArrayList<Cotizacion> cotizacion) {
 		this.cotizacion = cotizacion;
 	}
+
+        public Trabajador(String area, String cargo, ArrayList<Servicio> servicio, ArrayList<Cotizacion> cotizacion, String nombre, int telefono, String correo, Date fechaRegistro) {
+            super(nombre, telefono, correo, fechaRegistro);
+            this.area = area;
+            this.cargo = cargo;
+            this.servicio = servicio;
+            this.cotizacion = cotizacion;
+        }
 	
-	public Trabajador(String nombre, int telefono,String correo,String area,String cargo){
-		super(nombre,telefono,correo);
-		this.area=area;
-		this.cargo=cargo;
-	}
+	
 }
