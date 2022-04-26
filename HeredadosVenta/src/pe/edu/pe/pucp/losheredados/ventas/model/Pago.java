@@ -9,16 +9,26 @@ package pe.edu.pe.pucp.losheredados.ventas.model;
  * @author PC
  */
 public class Pago {
+    private int idPago;
     private double parteContado;
     private double parteCredito;
     private TiposdePago tipoPago;
-
+    
+public Pago(){};
     public Pago(double parteContado, double parteCredito, TiposdePago tipoPago) {
         this.parteContado = parteContado;
         this.parteCredito = parteCredito;
         this.tipoPago = tipoPago;
     }
 
+        public int getIdPago() {
+        return idPago;
+    }
+
+    public void setIdPago(int idPago) {
+        this.idPago = idPago;
+    }
+    
     public double getParteContado() {
         return parteContado;
     }

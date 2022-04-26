@@ -12,12 +12,15 @@ import pe.edu.pucp.losheredados.productos.model.Servicio;
  * @author PC
  */
 public class Detalle {
+    private int idDetalle;
      private double costoUnitario;
     private Producto producto;
     private Servicio servicio;
     private int cantidad;
     private double subTotal;
 
+    public Detalle(){};
+    
     public Detalle(double costoUnitario, Producto producto, Servicio servicio, int cantidad, double subTotal) {
         this.costoUnitario = costoUnitario;
         this.producto = producto;
@@ -26,6 +29,14 @@ public class Detalle {
         this.subTotal = subTotal;
     }
 
+        public int getIdDetalle() {
+        return idDetalle;
+    }
+
+    public void setIdDetalle(int idDetalle) {
+        this.idDetalle = idDetalle;
+    }
+    
     public double getCostoUnitario() {
         return costoUnitario;
     }

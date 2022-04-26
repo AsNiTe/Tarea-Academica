@@ -13,6 +13,9 @@ public class Venta{
                  private Date fechaPago;
                  private Cotizacion cotizacion;
                  private String estado;
+                 
+                 
+                 public Venta(){};
 
                 public Venta(int idVenta, Pago pago, Date fechaEntrega, Date fechaEmisionPago, int plazoPagoDias, Date fechaPago, Cotizacion cotizacion, String estado) {
                     this.idVenta = idVenta;

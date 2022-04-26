@@ -9,5 +9,9 @@ package pe.edu.pe.pucp.losheredados.ventas.model;
  * @author PC
  */
 public enum TiposdePago {
-    Mixto, Solo_Contado, Solo_Credito
+    Mixto, Solo_Contado, Solo_Credito;
+
+    public static TiposdePago valuefOf(String tipo_pago) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }

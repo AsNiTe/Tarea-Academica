@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.Date;
 
 public class Cotizacion{
-	private float costo;
+                  private int idCotizacion;
 	private ArrayList<Detalle> detalleCotizacion;
                  private Obra obraAsociada;
                  private Trabajador vendedor;
@@ -20,9 +20,8 @@ public class Cotizacion{
                  	private float subTotal;
 	private float IGV;
 	private float total;
-
-    public Cotizacion(float costo, Obra obraAsociada, Trabajador vendedor, Cliente cliente, Date fecha, String estado, float subTotal, float IGV, float total) {
-        this.costo = costo;
+public Cotizacion(){};
+    public Cotizacion(Obra obraAsociada, Trabajador vendedor, Cliente cliente, Date fecha, String estado, float subTotal, float IGV, float total) {
         this.obraAsociada = obraAsociada;
         this.vendedor = vendedor;
         this.cliente = cliente;
@@ -33,13 +32,14 @@ public class Cotizacion{
         this.total = total;
     }
 
-    public float getCosto() {
-        return costo;
+        public int getIdCotizacion() {
+        return idCotizacion;
     }
 
-    public void setCosto(float costo) {
-        this.costo = costo;
+    public void setIdCotizacion(int idCotizacion) {
+        this.idCotizacion = idCotizacion;
     }
+    
 
     public ArrayList<Detalle> getDetalleCotizacion() {
         return detalleCotizacion;
