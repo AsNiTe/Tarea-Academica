@@ -119,10 +119,8 @@ public class Producto {
 		this.color = color;
 	}
 
-    public Producto(ArrayList<Precios> precios, ArrayList<Promocion> promociones, int stock, String nombre, String descripcion, String rendimiento, String presentacion, 
+    public Producto( int stock, String nombre, String descripcion, String rendimiento, String presentacion, 
             double densidad, ProductoyCategoria categoria, String apariencia, String diluyente, String soluble, String color) {
-        this.precios = precios;
-        this.promociones = promociones;
         this.stock = stock;
         this.nombre = nombre;
         this.descripcion = descripcion;

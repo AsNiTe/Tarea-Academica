@@ -21,9 +21,8 @@ public class Cotizacion{
 	private float IGV;
 	private float total;
 
-    public Cotizacion(float costo, ArrayList<Detalle> detalleCotizacion, Obra obraAsociada, Trabajador vendedor, Cliente cliente, Date fecha, String estado, float subTotal, float IGV, float total) {
+    public Cotizacion(float costo, Obra obraAsociada, Trabajador vendedor, Cliente cliente, Date fecha, String estado, float subTotal, float IGV, float total) {
         this.costo = costo;
-        this.detalleCotizacion = detalleCotizacion;
         this.obraAsociada = obraAsociada;
         this.vendedor = vendedor;
         this.cliente = cliente;

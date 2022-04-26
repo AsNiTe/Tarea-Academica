@@ -8,7 +8,7 @@ import pe.edu.pucp.losheredados.usuarios.model.Trabajador;
 import java.util.ArrayList;
 public class Servicio{
 	private String nombre;
-	private float costo;
+	private double  costo;
 	private ArrayList<Trabajador> encargado;
 	
 	public String getNombre() {
@@ -18,10 +18,10 @@ public class Servicio{
 		this.nombre = nombre;
 	}
 
-	public float getCosto() {
+	public double getCosto() {
 		return costo;
 	}
-	public void setCosto(float costo) {
+	public void setCosto(double costo) {
 		this.costo = costo;
 	}
 
@@ -32,7 +32,7 @@ public class Servicio{
 		this.encargado = encargado;
 	}
 
-	public Servicio(String nombre,float costo){
+	public Servicio(String nombre,double costo){
 		this.nombre=nombre;
 		this.costo=costo;
 	}
