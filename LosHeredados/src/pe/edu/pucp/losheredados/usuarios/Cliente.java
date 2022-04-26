@@ -3,7 +3,7 @@ import java.util.Date;
 import java.util.ArrayList;
 public class Cliente extends Usuario{
         private String RUC;
-	private int razonSocial;
+	private String razonSocial;
 	private String personaContacto;
 	private Cliente_Categoria categoria;
 	private ArrayList<Obra> obra;
@@ -43,10 +43,10 @@ public class Cliente extends Usuario{
             this.deudaVencidas = deudaVencidas;
         }
     
-	public int getRazonSocial() {
+	public String getRazonSocial() {
 		return razonSocial;
 	}
-	public void setRazonSocial(int razonSocial) {
+	public void setRazonSocial(String razonSocial) {
 		this.razonSocial = razonSocial;
 	}
 
@@ -71,7 +71,7 @@ public class Cliente extends Usuario{
 		this.obra = obra;
 	}
 
-    public Cliente(String RUC, int razonSocial, String personaContacto, Cliente_Categoria categoria, ArrayList<Obra> obra, ArrayList<ContactoCliente> contactos, double deudaPendienteTotal, double deudaVencidas, String nombre, int telefono, String correo, Date fechaRegistro) {
+    public Cliente(String RUC, String razonSocial, String personaContacto, Cliente_Categoria categoria, ArrayList<Obra> obra, ArrayList<ContactoCliente> contactos, double deudaPendienteTotal, double deudaVencidas, String nombre, int telefono, String correo, Date fechaRegistro) {
         super(nombre, telefono, correo, fechaRegistro);
         this.RUC = RUC;
         this.razonSocial = razonSocial;
