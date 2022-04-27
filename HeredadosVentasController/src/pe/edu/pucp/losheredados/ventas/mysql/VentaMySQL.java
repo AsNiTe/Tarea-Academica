@@ -2,17 +2,17 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package pe.edu.pe.pucp.losheredados.ventas.mysql;
+package pe.edu.pucp.losheredados.ventas.mysql;
 import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 import pe.edu.pucp.heredadossoft.config.DBManager;
-import pe.edu.pe.pucp.losheredados.ventas.dao.VentaDAO;
-import pe.edu.pe.pucp.losheredados.ventas.model.Cotizacion;
-import pe.edu.pe.pucp.losheredados.ventas.model.Pago;
-import pe.edu.pe.pucp.losheredados.ventas.model.TiposdePago;
-import pe.edu.pe.pucp.losheredados.ventas.model.Venta;
+import pe.edu.pucp.losheredados.ventas.dao.VentaDAO;
+import pe.edu.pucp.losheredados.ventas.model.Cotizacion;
+import pe.edu.pucp.losheredados.ventas.model.Pago;
+import pe.edu.pucp.losheredados.ventas.model.TiposdePago;
+import pe.edu.pucp.losheredados.ventas.model.Venta;
 
 
 /**
