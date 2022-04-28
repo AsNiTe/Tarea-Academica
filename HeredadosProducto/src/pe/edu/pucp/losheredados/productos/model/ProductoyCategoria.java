@@ -9,12 +9,22 @@ package pe.edu.pucp.losheredados.productos.model;
  * @author PC
  */
 public class ProductoyCategoria {
-   private String nombre;
-   private String etapaRecomendada;
+    private int idProductoCategoria;
+    private String nombre;
+    private String etapaRecomendada;
 
     public ProductoyCategoria(String nombre, String etapaRecomendada) {
         this.nombre = nombre;
         this.etapaRecomendada = etapaRecomendada;
+    }
+
+   
+    public int getIdProductoCategoria() {
+        return idProductoCategoria;
+    }
+
+    public void setIdProductoCategoria(int idProductoCategoria) {
+        this.idProductoCategoria = idProductoCategoria;
     }
 
     public String getNombre() {

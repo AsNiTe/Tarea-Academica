@@ -10,16 +10,18 @@ package pe.edu.pucp.losheredados.productos.model;
  */
 import java.util.Date;
 public class Promocion {
-        private String nombre;
-        private String descripcion;
-        private double precioUnitario;
-        private Date fechaInicio;
-        private Date fechaFin;
-        private int cantidadMinima;
-        private String unidad;
-        private boolean activa;
+    private int idPromocion;
+    private String nombre;
+    private String descripcion;
+    private double precioUnitario;
+    private Date fechaInicio;
+    private Date fechaFin;
+    private int cantidadMinima;
+    private String unidad;
+    private boolean activa;
+    private Producto producto;
 
-      public Promocion(String nombre, String descripcion, double precioUnitario, Date fechaInicio, Date fechaFin, int cantidadMinima, String unidad, boolean activa) {
+    public Promocion(String nombre, String descripcion, double precioUnitario, Date fechaInicio, Date fechaFin, int cantidadMinima, String unidad, boolean activa, Producto producto) {
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.precioUnitario = precioUnitario;
@@ -28,6 +30,25 @@ public class Promocion {
         this.cantidadMinima = cantidadMinima;
         this.unidad = unidad;
         this.activa = activa;
+        this.producto = producto;
+    }   
+
+    public Producto getProducto() {
+        return producto;
+    }
+
+    public void setProducto(Producto producto) {
+        this.producto = producto;
+    }
+      
+    
+
+    public int getIdPromocion() {
+        return idPromocion;
+    }
+
+    public void setIdPromocion(int idPromocion) {
+        this.idPromocion = idPromocion;
     }
         
     public String getNombre() {
